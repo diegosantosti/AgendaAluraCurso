@@ -13,6 +13,7 @@ public class FormularioActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_formulario);
 
+
         Button botaoSalvar = (Button) findViewById(R.id.formulario_btn_salvar);
         botaoSalvar.setOnClickListener(new View.OnClickListener() {
             @Override
